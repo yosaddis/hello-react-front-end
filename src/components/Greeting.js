@@ -11,8 +11,7 @@ function Greeting() {
   }, [dispatch]);
 
   return (
-    <div className="tv-container">
-      console.log(message.greeting);
+    <div>
       <h1>{message.greeting}</h1>
     </div>
   );
