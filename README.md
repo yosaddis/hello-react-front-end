@@ -1,70 +1,175 @@
-# Getting Started with Create React App
+# Hello Rails Frontend<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 Hello Rails Frontend <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Hello Rails Frontend** Create a React front-end with a Rails back-end and connect them to display a random message.
 
-### `npm test`
+## Link to the Back-end
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Hello Rails Backend](https://github.com/yosaddis/hello-rails-back-end)
 
-### `npm run build`
+## 🛠 Built With <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack <a name="tech-stack"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Client</summary>
+  <ul>
+   <li>React js</li>
+   <li>Redux</li>
+   <li>CSS</li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Server</summary>
+  <ul>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- Features -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **display messages**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right"><a href="#readme-top">👆</a></p>
 
-## Learn More
+<!-- Getting Started -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting Started <a name="getting-started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the project locally, follow these steps.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In order to run this project you need to:
 
-### Analyzing the Bundle Size
+- Install [Git](https://git-scm.com/)
+- Install [Node](https://nodejs.org/en/)
+- Install a code editor, I suggest [VsCode](https://code.visualstudio.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Setup
 
-### Making a Progressive Web App
+Clone the repo into your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/yosaddis/hello-react-front-end.git
+```
 
-### Advanced Configuration
+Install the dependencies using npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+```
 
-### Deployment
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To start the development server run
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- this command will start the development server on `localhost:3000` address
+
+To create and optimized production build run
+
+```bash
+npm run build
+```
+
+- this command will create a bunduled chunks of code inside `build/` folder
+
+### Run tests
+
+To run tests, run the following command:
+
+```bash
+  npm npx eslint .
+```
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Yoseph Addisu**
+
+- [<img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" width='20'/> Email](mailto:email.to.yoseph@gmail.com)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" width='20'/> Twitter](https://twitter.com/yosaddis)
+- [<img src="https://i.stack.imgur.com/gVE0j.png" width='20'/> LinkedIn](https://www.linkedin.com/in/yoseph-addisu-abate/)
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Improve UI, Page speed, Content rularity, etc...
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- Contributing -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- Show your support -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project leave a start for it.
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank Microverse for helping me in my journey to become a Fullstack developer
+
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right"><a href="#readme-top">👆</a></p>
